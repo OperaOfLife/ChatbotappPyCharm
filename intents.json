@@ -4,35 +4,37 @@
          "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
          "context_set": ""
         },
-        {"tag": "greetingMore",
-         "patterns": [ "How are you", "Whats up"],
-         "responses": ["I am fine!, How about you?", "I am good, you?"],
+        {"tag": "common cold",
+          "patterns": ["cold", "blocked nose", "runny nose","headache","cough","sneezing","high temperature","pressure in ears and face" ],
+         "responses": ["You might have caught a common cold", "Your symptoms suggests you caught a cold","sounds like a case of the common cold"],
          "context_set": ""
         },
-        {"tag": "goodbye",
-         "patterns": ["cya", "Bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+        {"tag": "fever",
+         "patterns": ["fever","elevated temperature", "chills","shivering","shaking","body aches","fatigue","constant sweating","flushed skin"],
+         "responses": ["You have gotten a fever","Sounds like you have a fever","the symptoms presented is similar to a fever"],
          "context_set": ""
         },
-        {"tag": "age",
-         "patterns": ["how old", "how old is John", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 25 years old!", "18 years young!"],
+        {"tag": "Covid",
+         "patterns": ["dry cough","tiredness","sore throat","loss of taste","loss of smell","difficult breathing","shortness of breath"],
+         "responses": ["you should consult a doctor immediately as u might have contacted Covid-19","You might have contacted Covid-19","Your symptoms matches that of Covid-19, please consult a doctor immediately"],
          "context_set": ""
         },
-        {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me John.", "I'm John!", "I'm John aka John Doe."],
+        {"tag": "diarrhea",
+         "patterns": ["watery stools","abdominal cramps","abdominal pain","bleeding","lightheartedness"],
+         "responses": ["Your symptoms sounds like you are experiencing diarrhea.","Signs presented are closely associated to diarrhea"],
          "context_set": ""
         },
-        {"tag": "shop",
-         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
-         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+        {"tag": "food poisoning",
+         "patterns": ["diarrhea","vomiting","nausea"],
+         "responses": ["Sounds like food poisoning","Prediction suggests food poisoning","You might have gotten food-poisoning, please consult a doctor"],
          "context_set": ""
         },
-        {"tag": "hours",
-         "patterns": ["Headache"],
-         "responses": ["Can see a GP"],
+        {"tag": "dengue",
+         "patterns": ["rash", "eye pain","joint pain","persistent vomiting","lethargy","restlessness"],
+         "responses": ["Symptoms suggests you have contacted dengue fever","Your symptoms are associated with dengue fever"],
          "context_set": ""
         }
-   ]
+        
+ 
+ ]
 }
